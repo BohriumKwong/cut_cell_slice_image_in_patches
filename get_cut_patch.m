@@ -1,7 +1,7 @@
 % get_cut_patch('HE','annotated','raw');
 function get_cut_patch(First_d,scond_a,scond_r)
 
-dir_annotated = strcat(fullfile(pwd, 'Cut Patches',First_d,scond_a),'\');
+dir_annotated = strcat(fullfile(pwd, 'Cut_Patches',First_d,scond_a),'\');
 %Img = imread(filename);
 dir_raw = fullfile(pwd, 'Cut Patches',First_d,scond_r);
 %遍历dir_raw下所有文件，从3开始是因为包含了./和../

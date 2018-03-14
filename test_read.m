@@ -1,4 +1,4 @@
-filename = fullfile(pwd, 'Cut Patches','HE','annotated', '18722__5121_29953.png');
+filename = fullfile(pwd, 'Cut_Patches','HE','annotated', '18722__5121_29953.png');
 Img = imread(filename);
 %figure; imshow(Img, []); title('原图像');
 % 颜色空间转换

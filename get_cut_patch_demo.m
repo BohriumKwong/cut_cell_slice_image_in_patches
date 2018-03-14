@@ -1,10 +1,10 @@
 dir_name = 'HE';
 Imgname = '18722__8193_17153.png';
-filename = fullfile(pwd, 'Cut Patches',dir_name,'annotated', Imgname);
+filename = fullfile(pwd, 'Cut_Patches',dir_name,'annotated', Imgname);
 %18728__16129_2817
 % HE 18722__5121_18433.png
 Img = imread(filename);
-filename = fullfile(pwd, 'Cut Patches',dir_name,'raw', Imgname);
+filename = fullfile(pwd, 'Cut_Patches',dir_name,'raw', Imgname);
 Img0 = imread(filename);
 Img_mark = label_picture(Img,'r',dir_name,Imgname);
 Img_mark = label_picture(Img_mark,'g',dir_name,Imgname);
