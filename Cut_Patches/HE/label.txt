@@ -1,0 +1,3 @@
+lymphocyte--red
+plasma cell  -- yellow
+cancer cell--green
